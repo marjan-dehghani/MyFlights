@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FlightSuggestion" representedClassName="FlightSuggestion" syncable="YES">
+        <attribute name="aTimeUTC" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="cityCodeFrom" optional="YES" attributeType="String"/>
+        <attribute name="cityCodeTo" optional="YES" attributeType="String"/>
+        <attribute name="cityFrom" optional="YES" attributeType="String"/>
+        <attribute name="cityTo" optional="YES" attributeType="String"/>
+        <attribute name="countryCodeFrom" optional="YES" attributeType="String"/>
+        <attribute name="countryCodeTo" optional="YES" attributeType="String"/>
+        <attribute name="countryNameFrom" optional="YES" attributeType="String"/>
+        <attribute name="countryNameTo" optional="YES" attributeType="String"/>
+        <attribute name="deepLink" optional="YES" attributeType="String"/>
+        <attribute name="dTimeUTC" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="fly_duration" optional="YES" attributeType="String"/>
+        <attribute name="flyTo" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="mapIdto" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="suggestDate" attributeType="Date" usesScalarValueType="NO"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="FlightSuggestion" positionX="-54" positionY="-9" width="128" height="298"/>
+    </elements>
+</model>

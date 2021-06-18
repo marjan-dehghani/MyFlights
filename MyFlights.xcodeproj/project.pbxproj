@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19123AEF267A51D800661BB9 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19123AEE267A51D800661BB9 /* PagerView.swift */; };
+		19123AF2267A52E100661BB9 /* FlightSuggestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19123AF1267A52E100661BB9 /* FlightSuggestionsView.swift */; };
+		19123AF6267A634900661BB9 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19123AF5267A634900661BB9 /* Colors.xcassets */; };
+		19123AFA267A635D00661BB9 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19123AF9267A635D00661BB9 /* Colors.swift */; };
+		19123B13267A86FF00661BB9 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123AFF267A86FF00661BB9 /* Gilroy-UltraLightItalic.ttf */; };
+		19123B14267A86FF00661BB9 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B00267A86FF00661BB9 /* Gilroy-Medium.ttf */; };
+		19123B15267A86FF00661BB9 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B01267A86FF00661BB9 /* Gilroy-LightItalic.ttf */; };
+		19123B16267A86FF00661BB9 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B02267A86FF00661BB9 /* Gilroy-ThinItalic.ttf */; };
+		19123B17267A86FF00661BB9 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B03267A86FF00661BB9 /* Gilroy-HeavyItalic.ttf */; };
+		19123B18267A86FF00661BB9 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B04267A86FF00661BB9 /* Gilroy-BoldItalic.ttf */; };
+		19123B19267A86FF00661BB9 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B05267A86FF00661BB9 /* Gilroy-SemiBoldItalic.ttf */; };
+		19123B1A267A86FF00661BB9 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B06267A86FF00661BB9 /* Gilroy-RegularItalic.ttf */; };
+		19123B1B267A86FF00661BB9 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B07267A86FF00661BB9 /* Gilroy-BlackItalic.ttf */; };
+		19123B1C267A86FF00661BB9 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B08267A86FF00661BB9 /* Gilroy-Regular.ttf */; };
+		19123B1D267A86FF00661BB9 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B09267A86FF00661BB9 /* Gilroy-UltraLight.ttf */; };
+		19123B1E267A86FF00661BB9 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0A267A86FF00661BB9 /* Gilroy-Black.ttf */; };
+		19123B1F267A86FF00661BB9 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0B267A86FF00661BB9 /* Gilroy-ExtraBold.ttf */; };
+		19123B20267A86FF00661BB9 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0C267A86FF00661BB9 /* Gilroy-MediumItalic.ttf */; };
+		19123B21267A86FF00661BB9 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0D267A86FF00661BB9 /* Gilroy-Light.ttf */; };
+		19123B22267A86FF00661BB9 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0E267A86FF00661BB9 /* Gilroy-Thin.ttf */; };
+		19123B23267A86FF00661BB9 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B0F267A86FF00661BB9 /* Gilroy-ExtraBoldItalic.ttf */; };
+		19123B24267A86FF00661BB9 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B10267A86FF00661BB9 /* Gilroy-SemiBold.ttf */; };
+		19123B25267A86FF00661BB9 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B11267A86FF00661BB9 /* Gilroy-Bold.ttf */; };
+		19123B26267A86FF00661BB9 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19123B12267A86FF00661BB9 /* Gilroy-Heavy.ttf */; };
+		19123B29267A875B00661BB9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19123B28267A875B00661BB9 /* Fonts.swift */; };
+		19365DBC267B813300350579 /* SwipeIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19365DBB267B813300350579 /* SwipeIndicator.swift */; };
+		194BDFC7267CB7F500C46058 /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BDFC6267CB7F500C46058 /* TicketShape.swift */; };
+		194BDFCA267CBD9E00C46058 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BDFC9267CBD9E00C46058 /* Line.swift */; };
+		194BDFD1267CC4D000C46058 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BDFD0267CC4D000C46058 /* LocationDetailsView.swift */; };
+		194BDFD4267CC69600C46058 /* TimeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194BDFD3267CC69600C46058 /* TimeDetailsView.swift */; };
+		1956C5FC2679180700761063 /* MyFlights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1956C5FA2679180700761063 /* MyFlights.xcdatamodeld */; };
+		1978F99F267B2ABB00896E33 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978F99E267B2ABB00896E33 /* ImageLoader.swift */; };
+		1978F9A2267B2BB200896E33 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978F9A1267B2BB200896E33 /* AsyncImage.swift */; };
+		1978F9A6267B5B7E00896E33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1978F9A5267B5B7E00896E33 /* Images.xcassets */; };
+		1978F9A9267B5BA300896E33 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978F9A8267B5BA300896E33 /* Images.swift */; };
+		1978F9AC267B625D00896E33 /* InfoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978F9AB267B625D00896E33 /* InfoBox.swift */; };
+		1978F9B5267B713000896E33 /* Font+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978F9B4267B713000896E33 /* Font+Custom.swift */; };
+		197EFB82267A11490019E5F6 /* Optionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EFB81267A11490019E5F6 /* Optionals.swift */; };
+		197EFB86267A17C70019E5F6 /* FlightSuggestion+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EFB84267A17C70019E5F6 /* FlightSuggestion+CoreDataClass.swift */; };
+		197EFB87267A17C70019E5F6 /* FlightSuggestion+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EFB85267A17C70019E5F6 /* FlightSuggestion+CoreDataProperties.swift */; };
+		197EFB8B267A3A290019E5F6 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EFB8A267A3A290019E5F6 /* DateHelper.swift */; };
+		197EFB8E267A3EE60019E5F6 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197EFB8D267A3EE60019E5F6 /* PersistenceManager.swift */; };
+		19BC49402679FEEF00C89CC3 /* FlightSuggestionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BC493F2679FEEE00C89CC3 /* FlightSuggestionStore.swift */; };
+		19C849202678E39B00173776 /* MyFlightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8491F2678E39B00173776 /* MyFlightsApp.swift */; };
+		19C849242678E39F00173776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C849232678E39F00173776 /* Assets.xcassets */; };
+		19C849272678E39F00173776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C849262678E39F00173776 /* Preview Assets.xcassets */; };
+		19C8493A2678FB3D00173776 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849342678FB3D00173776 /* Endpoint.swift */; };
+		19C8493B2678FB3D00173776 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849352678FB3D00173776 /* NetworkResponse.swift */; };
+		19C8493C2678FB3D00173776 /* FlightsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849372678FB3D00173776 /* FlightsEndpoint.swift */; };
+		19C8493D2678FB3D00173776 /* LocationsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849382678FB3D00173776 /* LocationsEndpoint.swift */; };
+		19C8493E2678FB3D00173776 /* APIAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849392678FB3D00173776 /* APIAgent.swift */; };
+		19C849442678FBD300173776 /* URLRequest+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849422678FBD300173776 /* URLRequest+Network.swift */; };
+		19C849452678FBD300173776 /* URLComponents+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849432678FBD300173776 /* URLComponents+Network.swift */; };
+		19C8494A2678FCF600173776 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849492678FCF600173776 /* Constants.swift */; };
+		19C849532679015600173776 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849522679015600173776 /* FlightView.swift */; };
+		19C849562679038A00173776 /* FlightSuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C849552679038A00173776 /* FlightSuggestionsViewModel.swift */; };
+		19C84969267905D100173776 /* Search_params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84959267905D100173776 /* Search_params.swift */; };
+		19C8496A267905D100173776 /* CountryFrom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495A267905D100173776 /* CountryFrom.swift */; };
+		19C8496B267905D100173776 /* All_prices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495B267905D100173776 /* All_prices.swift */; };
+		19C8496C267905D100173776 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495C267905D100173776 /* Route.swift */; };
+		19C8496D267905D100173776 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495D267905D100173776 /* Flight.swift */; };
+		19C8496E267905D100173776 /* Hashtags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495E267905D100173776 /* Hashtags.swift */; };
+		19C8496F267905D100173776 /* FlightsSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C8495F267905D100173776 /* FlightsSearchResult.swift */; };
+		19C84970267905D100173776 /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84960267905D100173776 /* Availability.swift */; };
+		19C84971267905D100173776 /* Baglimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84961267905D100173776 /* Baglimit.swift */; };
+		19C84972267905D100173776 /* AirlinesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84962267905D100173776 /* AirlinesList.swift */; };
+		19C84973267905D100173776 /* Discount_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84963267905D100173776 /* Discount_data.swift */; };
+		19C84974267905D100173776 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84964267905D100173776 /* Duration.swift */; };
+		19C84975267905D100173776 /* Bags_price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84965267905D100173776 /* Bags_price.swift */; };
+		19C84976267905D100173776 /* CountryTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84966267905D100173776 /* CountryTo.swift */; };
+		19C84977267905D100173776 /* Seats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84967267905D100173776 /* Seats.swift */; };
+		19C84978267905D100173776 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C84968267905D100173776 /* Conversion.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19123AEE267A51D800661BB9 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		19123AF1267A52E100661BB9 /* FlightSuggestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSuggestionsView.swift; sourceTree = "<group>"; };
+		19123AF5267A634900661BB9 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		19123AF9267A635D00661BB9 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		19123AFF267A86FF00661BB9 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		19123B00267A86FF00661BB9 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		19123B01267A86FF00661BB9 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		19123B02267A86FF00661BB9 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		19123B03267A86FF00661BB9 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		19123B04267A86FF00661BB9 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		19123B05267A86FF00661BB9 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		19123B06267A86FF00661BB9 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		19123B07267A86FF00661BB9 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		19123B08267A86FF00661BB9 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		19123B09267A86FF00661BB9 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		19123B0A267A86FF00661BB9 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		19123B0B267A86FF00661BB9 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		19123B0C267A86FF00661BB9 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		19123B0D267A86FF00661BB9 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		19123B0E267A86FF00661BB9 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		19123B0F267A86FF00661BB9 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		19123B10267A86FF00661BB9 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		19123B11267A86FF00661BB9 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		19123B12267A86FF00661BB9 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		19123B28267A875B00661BB9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		19365DBB267B813300350579 /* SwipeIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeIndicator.swift; sourceTree = "<group>"; };
+		194BDFC6267CB7F500C46058 /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
+		194BDFC9267CBD9E00C46058 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		194BDFD0267CC4D000C46058 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
+		194BDFD3267CC69600C46058 /* TimeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDetailsView.swift; sourceTree = "<group>"; };
+		1956C5FB2679180700761063 /* MyFlights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyFlights.xcdatamodel; sourceTree = "<group>"; };
+		1978F99E267B2ABB00896E33 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		1978F9A1267B2BB200896E33 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		1978F9A5267B5B7E00896E33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1978F9A8267B5BA300896E33 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		1978F9AB267B625D00896E33 /* InfoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoBox.swift; sourceTree = "<group>"; };
+		1978F9B4267B713000896E33 /* Font+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Custom.swift"; sourceTree = "<group>"; };
+		197EFB81267A11490019E5F6 /* Optionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optionals.swift; sourceTree = "<group>"; };
+		197EFB84267A17C70019E5F6 /* FlightSuggestion+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightSuggestion+CoreDataClass.swift"; sourceTree = "<group>"; };
+		197EFB85267A17C70019E5F6 /* FlightSuggestion+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FlightSuggestion+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		197EFB8A267A3A290019E5F6 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		197EFB8D267A3EE60019E5F6 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		19BC493F2679FEEE00C89CC3 /* FlightSuggestionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSuggestionStore.swift; sourceTree = "<group>"; };
+		19C8491C2678E39A00173776 /* MyFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C8491F2678E39B00173776 /* MyFlightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlightsApp.swift; sourceTree = "<group>"; };
+		19C849232678E39F00173776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C849262678E39F00173776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19C849282678E39F00173776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C849342678FB3D00173776 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		19C849352678FB3D00173776 /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		19C849372678FB3D00173776 /* FlightsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsEndpoint.swift; sourceTree = "<group>"; };
+		19C849382678FB3D00173776 /* LocationsEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsEndpoint.swift; sourceTree = "<group>"; };
+		19C849392678FB3D00173776 /* APIAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIAgent.swift; sourceTree = "<group>"; };
+		19C849422678FBD300173776 /* URLRequest+Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Network.swift"; sourceTree = "<group>"; };
+		19C849432678FBD300173776 /* URLComponents+Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLComponents+Network.swift"; sourceTree = "<group>"; };
+		19C849492678FCF600173776 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		19C849522679015600173776 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
+		19C849552679038A00173776 /* FlightSuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSuggestionsViewModel.swift; sourceTree = "<group>"; };
+		19C84959267905D100173776 /* Search_params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search_params.swift; sourceTree = "<group>"; };
+		19C8495A267905D100173776 /* CountryFrom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryFrom.swift; sourceTree = "<group>"; };
+		19C8495B267905D100173776 /* All_prices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = All_prices.swift; sourceTree = "<group>"; };
+		19C8495C267905D100173776 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		19C8495D267905D100173776 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		19C8495E267905D100173776 /* Hashtags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashtags.swift; sourceTree = "<group>"; };
+		19C8495F267905D100173776 /* FlightsSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightsSearchResult.swift; sourceTree = "<group>"; };
+		19C84960267905D100173776 /* Availability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
+		19C84961267905D100173776 /* Baglimit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Baglimit.swift; sourceTree = "<group>"; };
+		19C84962267905D100173776 /* AirlinesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirlinesList.swift; sourceTree = "<group>"; };
+		19C84963267905D100173776 /* Discount_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discount_data.swift; sourceTree = "<group>"; };
+		19C84964267905D100173776 /* Duration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duration.swift; sourceTree = "<group>"; };
+		19C84965267905D100173776 /* Bags_price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bags_price.swift; sourceTree = "<group>"; };
+		19C84966267905D100173776 /* CountryTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTo.swift; sourceTree = "<group>"; };
+		19C84967267905D100173776 /* Seats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Seats.swift; sourceTree = "<group>"; };
+		19C84968267905D100173776 /* Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C849192678E39A00173776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19123AF4267A633800661BB9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				19C849232678E39F00173776 /* Assets.xcassets */,
+				1978F9A4267B5B7100896E33 /* Images */,
+				19123AFD267A86D500661BB9 /* Fonts */,
+				19123AF8267A634D00661BB9 /* Colors */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		19123AF8267A634D00661BB9 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				19123AF9267A635D00661BB9 /* Colors.swift */,
+				19123AF5267A634900661BB9 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		19123AFD267A86D500661BB9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				19123B28267A875B00661BB9 /* Fonts.swift */,
+				19123AFE267A86FF00661BB9 /* Gilroy */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		19123AFE267A86FF00661BB9 /* Gilroy */ = {
+			isa = PBXGroup;
+			children = (
+				19123AFF267A86FF00661BB9 /* Gilroy-UltraLightItalic.ttf */,
+				19123B00267A86FF00661BB9 /* Gilroy-Medium.ttf */,
+				19123B01267A86FF00661BB9 /* Gilroy-LightItalic.ttf */,
+				19123B02267A86FF00661BB9 /* Gilroy-ThinItalic.ttf */,
+				19123B03267A86FF00661BB9 /* Gilroy-HeavyItalic.ttf */,
+				19123B04267A86FF00661BB9 /* Gilroy-BoldItalic.ttf */,
+				19123B05267A86FF00661BB9 /* Gilroy-SemiBoldItalic.ttf */,
+				19123B06267A86FF00661BB9 /* Gilroy-RegularItalic.ttf */,
+				19123B07267A86FF00661BB9 /* Gilroy-BlackItalic.ttf */,
+				19123B08267A86FF00661BB9 /* Gilroy-Regular.ttf */,
+				19123B09267A86FF00661BB9 /* Gilroy-UltraLight.ttf */,
+				19123B0A267A86FF00661BB9 /* Gilroy-Black.ttf */,
+				19123B0B267A86FF00661BB9 /* Gilroy-ExtraBold.ttf */,
+				19123B0C267A86FF00661BB9 /* Gilroy-MediumItalic.ttf */,
+				19123B0D267A86FF00661BB9 /* Gilroy-Light.ttf */,
+				19123B0E267A86FF00661BB9 /* Gilroy-Thin.ttf */,
+				19123B0F267A86FF00661BB9 /* Gilroy-ExtraBoldItalic.ttf */,
+				19123B10267A86FF00661BB9 /* Gilroy-SemiBold.ttf */,
+				19123B11267A86FF00661BB9 /* Gilroy-Bold.ttf */,
+				19123B12267A86FF00661BB9 /* Gilroy-Heavy.ttf */,
+			);
+			path = Gilroy;
+			sourceTree = "<group>";
+		};
+		194BDFD8267D178700C46058 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				197EFB8A267A3A290019E5F6 /* DateHelper.swift */,
+				1978F99E267B2ABB00896E33 /* ImageLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1978F9A4267B5B7100896E33 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1978F9A5267B5B7E00896E33 /* Images.xcassets */,
+				1978F9A8267B5BA300896E33 /* Images.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1978F9AE267B70EE00896E33 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1978F9B4267B713000896E33 /* Font+Custom.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		19C849132678E39A00173776 = {
+			isa = PBXGroup;
+			children = (
+				19C8491E2678E39A00173776 /* MyFlights */,
+				19C8491D2678E39A00173776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C8491D2678E39A00173776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C8491C2678E39A00173776 /* MyFlights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C8491E2678E39A00173776 /* MyFlights */ = {
+			isa = PBXGroup;
+			children = (
+				194BDFD8267D178700C46058 /* Helpers */,
+				19123AF4267A633800661BB9 /* Assets */,
+				19C8494F2678FF4100173776 /* Models */,
+				19C849502678FF4C00173776 /* Views */,
+				19C8494E2678FF3A00173776 /* ViewModels */,
+				19C849482678FCEB00173776 /* DataStorage */,
+				19C849412678FBB800173776 /* Extensions */,
+				19C8492F2678E68200173776 /* NetworkLayer */,
+				19C8491F2678E39B00173776 /* MyFlightsApp.swift */,
+				19C849282678E39F00173776 /* Info.plist */,
+				19C849252678E39F00173776 /* Preview Content */,
+			);
+			path = MyFlights;
+			sourceTree = "<group>";
+		};
+		19C849252678E39F00173776 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19C849262678E39F00173776 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19C8492F2678E68200173776 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				19C849362678FB3D00173776 /* Endpoints */,
+				19C849392678FB3D00173776 /* APIAgent.swift */,
+				19C849342678FB3D00173776 /* Endpoint.swift */,
+				19C849352678FB3D00173776 /* NetworkResponse.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		19C849362678FB3D00173776 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				19C849372678FB3D00173776 /* FlightsEndpoint.swift */,
+				19C849382678FB3D00173776 /* LocationsEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		19C849412678FBB800173776 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19C849432678FBD300173776 /* URLComponents+Network.swift */,
+				19C849422678FBD300173776 /* URLRequest+Network.swift */,
+				197EFB81267A11490019E5F6 /* Optionals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19C849482678FCEB00173776 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				1956C5FA2679180700761063 /* MyFlights.xcdatamodeld */,
+				197EFB8D267A3EE60019E5F6 /* PersistenceManager.swift */,
+				19C849492678FCF600173776 /* Constants.swift */,
+				197EFB84267A17C70019E5F6 /* FlightSuggestion+CoreDataClass.swift */,
+				197EFB85267A17C70019E5F6 /* FlightSuggestion+CoreDataProperties.swift */,
+			);
+			path = DataStorage;
+			sourceTree = "<group>";
+		};
+		19C8494E2678FF3A00173776 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				19C849552679038A00173776 /* FlightSuggestionsViewModel.swift */,
+				19BC493F2679FEEE00C89CC3 /* FlightSuggestionStore.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		19C8494F2678FF4100173776 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19C84962267905D100173776 /* AirlinesList.swift */,
+				19C8495B267905D100173776 /* All_prices.swift */,
+				19C84960267905D100173776 /* Availability.swift */,
+				19C84961267905D100173776 /* Baglimit.swift */,
+				19C84965267905D100173776 /* Bags_price.swift */,
+				19C84968267905D100173776 /* Conversion.swift */,
+				19C8495A267905D100173776 /* CountryFrom.swift */,
+				19C84966267905D100173776 /* CountryTo.swift */,
+				19C8495D267905D100173776 /* Flight.swift */,
+				19C84963267905D100173776 /* Discount_data.swift */,
+				19C84964267905D100173776 /* Duration.swift */,
+				19C8495E267905D100173776 /* Hashtags.swift */,
+				19C8495F267905D100173776 /* FlightsSearchResult.swift */,
+				19C8495C267905D100173776 /* Route.swift */,
+				19C84959267905D100173776 /* Search_params.swift */,
+				19C84967267905D100173776 /* Seats.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		19C849502678FF4C00173776 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1978F9AE267B70EE00896E33 /* Modifiers */,
+				19C849522679015600173776 /* FlightView.swift */,
+				19123AEE267A51D800661BB9 /* PagerView.swift */,
+				19123AF1267A52E100661BB9 /* FlightSuggestionsView.swift */,
+				1978F9A1267B2BB200896E33 /* AsyncImage.swift */,
+				1978F9AB267B625D00896E33 /* InfoBox.swift */,
+				19365DBB267B813300350579 /* SwipeIndicator.swift */,
+				194BDFC6267CB7F500C46058 /* TicketShape.swift */,
+				194BDFC9267CBD9E00C46058 /* Line.swift */,
+				194BDFD0267CC4D000C46058 /* LocationDetailsView.swift */,
+				194BDFD3267CC69600C46058 /* TimeDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C8491B2678E39A00173776 /* MyFlights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C8492B2678E39F00173776 /* Build configuration list for PBXNativeTarget "MyFlights" */;
+			buildPhases = (
+				19C849182678E39A00173776 /* Sources */,
+				19C849192678E39A00173776 /* Frameworks */,
+				19C8491A2678E39A00173776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFlights;
+			productName = MyFlights;
+			productReference = 19C8491C2678E39A00173776 /* MyFlights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C849142678E39A00173776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					19C8491B2678E39A00173776 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 19C849172678E39A00173776 /* Build configuration list for PBXProject "MyFlights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C849132678E39A00173776;
+			productRefGroup = 19C8491D2678E39A00173776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C8491B2678E39A00173776 /* MyFlights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C8491A2678E39A00173776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19123B17267A86FF00661BB9 /* Gilroy-HeavyItalic.ttf in Resources */,
+				19123B19267A86FF00661BB9 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				19123B1C267A86FF00661BB9 /* Gilroy-Regular.ttf in Resources */,
+				19123B25267A86FF00661BB9 /* Gilroy-Bold.ttf in Resources */,
+				19123B20267A86FF00661BB9 /* Gilroy-MediumItalic.ttf in Resources */,
+				19123B26267A86FF00661BB9 /* Gilroy-Heavy.ttf in Resources */,
+				19123B24267A86FF00661BB9 /* Gilroy-SemiBold.ttf in Resources */,
+				19123B1E267A86FF00661BB9 /* Gilroy-Black.ttf in Resources */,
+				19123B13267A86FF00661BB9 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				1978F9A6267B5B7E00896E33 /* Images.xcassets in Resources */,
+				19123AF6267A634900661BB9 /* Colors.xcassets in Resources */,
+				19123B1B267A86FF00661BB9 /* Gilroy-BlackItalic.ttf in Resources */,
+				19123B1D267A86FF00661BB9 /* Gilroy-UltraLight.ttf in Resources */,
+				19123B1F267A86FF00661BB9 /* Gilroy-ExtraBold.ttf in Resources */,
+				19123B16267A86FF00661BB9 /* Gilroy-ThinItalic.ttf in Resources */,
+				19123B22267A86FF00661BB9 /* Gilroy-Thin.ttf in Resources */,
+				19123B23267A86FF00661BB9 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				19123B14267A86FF00661BB9 /* Gilroy-Medium.ttf in Resources */,
+				19C849272678E39F00173776 /* Preview Assets.xcassets in Resources */,
+				19123B1A267A86FF00661BB9 /* Gilroy-RegularItalic.ttf in Resources */,
+				19C849242678E39F00173776 /* Assets.xcassets in Resources */,
+				19123B21267A86FF00661BB9 /* Gilroy-Light.ttf in Resources */,
+				19123B15267A86FF00661BB9 /* Gilroy-LightItalic.ttf in Resources */,
+				19123B18267A86FF00661BB9 /* Gilroy-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C849182678E39A00173776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C8493C2678FB3D00173776 /* FlightsEndpoint.swift in Sources */,
+				19C8496E267905D100173776 /* Hashtags.swift in Sources */,
+				19C849532679015600173776 /* FlightView.swift in Sources */,
+				19C8493D2678FB3D00173776 /* LocationsEndpoint.swift in Sources */,
+				19C8496C267905D100173776 /* Route.swift in Sources */,
+				197EFB87267A17C70019E5F6 /* FlightSuggestion+CoreDataProperties.swift in Sources */,
+				19C8496B267905D100173776 /* All_prices.swift in Sources */,
+				19C8493B2678FB3D00173776 /* NetworkResponse.swift in Sources */,
+				19C849442678FBD300173776 /* URLRequest+Network.swift in Sources */,
+				197EFB8B267A3A290019E5F6 /* DateHelper.swift in Sources */,
+				19C8496A267905D100173776 /* CountryFrom.swift in Sources */,
+				197EFB8E267A3EE60019E5F6 /* PersistenceManager.swift in Sources */,
+				19C849562679038A00173776 /* FlightSuggestionsViewModel.swift in Sources */,
+				19C84974267905D100173776 /* Duration.swift in Sources */,
+				19C84976267905D100173776 /* CountryTo.swift in Sources */,
+				19C84978267905D100173776 /* Conversion.swift in Sources */,
+				1956C5FC2679180700761063 /* MyFlights.xcdatamodeld in Sources */,
+				19BC49402679FEEF00C89CC3 /* FlightSuggestionStore.swift in Sources */,
+				19123AF2267A52E100661BB9 /* FlightSuggestionsView.swift in Sources */,
+				197EFB82267A11490019E5F6 /* Optionals.swift in Sources */,
+				1978F9A2267B2BB200896E33 /* AsyncImage.swift in Sources */,
+				19C84977267905D100173776 /* Seats.swift in Sources */,
+				19C8494A2678FCF600173776 /* Constants.swift in Sources */,
+				194BDFCA267CBD9E00C46058 /* Line.swift in Sources */,
+				19365DBC267B813300350579 /* SwipeIndicator.swift in Sources */,
+				19C84970267905D100173776 /* Availability.swift in Sources */,
+				19C8496F267905D100173776 /* FlightsSearchResult.swift in Sources */,
+				1978F9AC267B625D00896E33 /* InfoBox.swift in Sources */,
+				19C8493A2678FB3D00173776 /* Endpoint.swift in Sources */,
+				197EFB86267A17C70019E5F6 /* FlightSuggestion+CoreDataClass.swift in Sources */,
+				19C84971267905D100173776 /* Baglimit.swift in Sources */,
+				19123AFA267A635D00661BB9 /* Colors.swift in Sources */,
+				19C849452678FBD300173776 /* URLComponents+Network.swift in Sources */,
+				19C849202678E39B00173776 /* MyFlightsApp.swift in Sources */,
+				194BDFD4267CC69600C46058 /* TimeDetailsView.swift in Sources */,
+				1978F9A9267B5BA300896E33 /* Images.swift in Sources */,
+				19123AEF267A51D800661BB9 /* PagerView.swift in Sources */,
+				19C84975267905D100173776 /* Bags_price.swift in Sources */,
+				19C84972267905D100173776 /* AirlinesList.swift in Sources */,
+				1978F9B5267B713000896E33 /* Font+Custom.swift in Sources */,
+				194BDFC7267CB7F500C46058 /* TicketShape.swift in Sources */,
+				19C84973267905D100173776 /* Discount_data.swift in Sources */,
+				19C8493E2678FB3D00173776 /* APIAgent.swift in Sources */,
+				19C84969267905D100173776 /* Search_params.swift in Sources */,
+				19123B29267A875B00661BB9 /* Fonts.swift in Sources */,
+				19C8496D267905D100173776 /* Flight.swift in Sources */,
+				194BDFD1267CC4D000C46058 /* LocationDetailsView.swift in Sources */,
+				1978F99F267B2ABB00896E33 /* ImageLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19C849292678E39F00173776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19C8492A2678E39F00173776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C8492C2678E39F00173776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFlights/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BVJBUBFR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyFlights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marjan.dehghani.MyFlights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C8492D2678E39F00173776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFlights/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BVJBUBFR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MyFlights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marjan.dehghani.MyFlights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C849172678E39A00173776 /* Build configuration list for PBXProject "MyFlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C849292678E39F00173776 /* Debug */,
+				19C8492A2678E39F00173776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C8492B2678E39F00173776 /* Build configuration list for PBXNativeTarget "MyFlights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C8492C2678E39F00173776 /* Debug */,
+				19C8492D2678E39F00173776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1956C5FA2679180700761063 /* MyFlights.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1956C5FB2679180700761063 /* MyFlights.xcdatamodel */,
+			);
+			currentVersion = 1956C5FB2679180700761063 /* MyFlights.xcdatamodel */;
+			path = MyFlights.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 19C849142678E39A00173776 /* Project object */;
+}
